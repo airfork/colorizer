@@ -1,4 +1,4 @@
-module github.com/airfork/colorizer/v2
+module github.com/airfork/colorizer
 
 go 1.16
 
