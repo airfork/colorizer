@@ -1,5 +1,8 @@
 # Colorizer
 
+A go module to get color from a word or words. Inspired by [this](https://alexbeals.com/projects/colorize/) 
+site ([code](https://github.com/dado3212/colorize))
+
 ## Example Usage
 
 ```go
@@ -19,6 +22,7 @@ func main() {
 		os.Exit(0)
 	}
 
+	// Ignoring the error
 	color, _ := colorizer.Colorize(strings.Join(os.Args[1:], " "))
 	fmt.Println(color)
 }
